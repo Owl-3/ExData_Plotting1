@@ -37,7 +37,7 @@ submetering_3 <- as.numeric(subsetdata$Sub_metering_3)
 hist(Global_active_power, col = 'red', main = "Global Active Power", xlab = 'Global Active Power (kilowats)')
 
 #saving png file
-dev.copy(png, file = 'plot1.png')
+dev.copy(png, file = 'plot1.png', width = 480, height = 480)
 dev.off()
 
 

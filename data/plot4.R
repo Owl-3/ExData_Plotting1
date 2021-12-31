@@ -20,7 +20,7 @@ legend('topright', c('submetering_1', 'submetering_2', 'submetering_3'),cex = 0.
 plot(datetime, Global_reactive_power, type = 'l')
 
 #saving png file
-dev.copy(png, file = 'plot4.png')
+dev.copy(png, file = 'plot4.png', width = 480, height = 480)
 dev.off()
 
 
